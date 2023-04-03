@@ -1,0 +1,126 @@
+* {
+  margin: 5px;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: lightblue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: lightblue;
+}
+.navbar .navbar-nav .nav-link {
+  background-color: FF99C9;
+  color: FF99C9;
+  border: 1p solid FF99C9;
+  border-radius: 40px;
+  gap: 1px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #fff;
+}
+
+/* PRODUCTO */
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+
+.footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+
+.site-footer {
+  height: 150px;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconos a {
+  text-decoration: none;
+  color: #5c4edb;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.iconos a i:hover {
+  background-color: lightblue;
+  color: white;
+  border: 1p solid lightblue;
+  border-radius: 40px;
+}
+
+.titulo {
+  text-align: center;
+  background-color: antiquewhite;
+  text-shadow: #5c4edb 5px;
+}
+
+
+.card-border {
+  background-color: #1c366941;
+  text-align: center;
+}
+
+.card-body {
+  align-items: center;
+}
